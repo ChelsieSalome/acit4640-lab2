@@ -1,6 +1,6 @@
 #! /bin/bash
 
-cat << EOD > "/usr/share/nginx/html/index.html"
+cat << EOD > "/var/www/html/index.nginx-debian.html"
 <!DOCTYPE html>
 <html lang='en'>
 <head>
