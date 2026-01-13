@@ -3,6 +3,6 @@
 
 ## Part 1.
 
-### Command t generate SSH key pair & description of options
+### Command to generate SSH key pair & description of options
 `ssh-keygen -t ed25519 -f ~/.ssh/wkone -C "aws lab-2"`
 
