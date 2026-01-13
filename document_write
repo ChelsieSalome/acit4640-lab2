@@ -1,5 +1,6 @@
 #! /bin/bash
 
+#Redirecting the terminal output to the default nginx index page to replace the contents.
 cat << EOD > "/var/www/html/index.nginx-debian.html"
 <!DOCTYPE html>
 <html lang='en'>
@@ -10,6 +11,8 @@ cat << EOD > "/var/www/html/index.nginx-debian.html"
 </head>
 <body>
   <h1>Hello World!</h1>
+
+#Command substitution
   <p>Today's date is: $(date +%d/%m/%Y)</p>
 </body>
 </html>
