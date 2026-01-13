@@ -1,5 +1,5 @@
 #!/bin/bash
 
-sudo apt upadate
+sudo apt update
 sudo apt install nginx
 sudo systemctl enable --now nginx
