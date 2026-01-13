@@ -1,5 +1,8 @@
 # acit4640-lab2
 
+Kurtis Li
+Chelsie Lele
+Jaskirat Gill
 
 ## Part 1.
 
