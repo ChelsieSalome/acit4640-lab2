@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# run updates on the system
 sudo apt update
+# install nginx
 sudo apt install nginx
+# enable nginx service to start on machine startup
 sudo systemctl enable --now nginx
