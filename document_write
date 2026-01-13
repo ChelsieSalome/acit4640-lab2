@@ -10,7 +10,7 @@ cat << EOD > "/usr/share/nginx/html/index.html"
 </head>
 <body>
   <h1>Hello World!</h1>
-  <p>Today's date is: ${date +%d-%m-%Y}</p>
+  <p>Today's date is: ${date +%d/%m/%Y}</p>
 </body>
 </html>
 EOD
